@@ -1,0 +1,46 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+
+#app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.container {
+    position: relative;
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 6px 9px 12px 1px #e5e4e4 ; 
+}
+.container:hover{
+    background-color: rgb(230, 240, 228);
+    border-radius: 15px;
+}
+.basis {
+    width: 60%;
+}
+.img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.title{
+    margin-top: 17px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: left;
+    
+}
+.price {
+    text-align: left;
+    padding-left: 10px;
+}
