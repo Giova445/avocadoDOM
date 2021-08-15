@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: 'http://giova445.github.io/avocadoDOM/',
+    baseUrl: 'https://giova445.github.io/avocadoDOM/',
   },
 }

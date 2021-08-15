@@ -1,5 +1,5 @@
 {
-  "homepage": " http://giova445.github.io/avocadoDOM/",
+  "homepage": " https://giova445.github.io/avocadoDOM/",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
